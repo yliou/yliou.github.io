@@ -1,0 +1,110 @@
+/* main part of the text below golden bar */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    background-color: rgb(0,55,113);
+    color: white;
+	opacity:1;
+    margin:0 auto;
+	width:100%;
+	height:100%;
+    padding: 3px;
+	text-align:center;
+}
+/* golden bar on the top */
+#header-container {
+	min-width: 768px;
+	z-index: 5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background-color: rgb(183,135,39);
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+}
+.main {
+	position: relative;
+	float: left;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 30px;
+	font-size: 45px;
+	color: white;
+	font-weight: bolder;
+}
+/* The three texts in the golden bar */
+.topper {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	float: right;
+	margin: 0 auto;
+	margin-right: 5px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: white;
+	font-size: 25px;
+	border-radius: 10px 10px 10px 10px;
+}
+#name{
+	margin-top:100px;
+	width:100%;
+	height:100%;
+    padding: 3px;
+	text-align:center;
+}
+/* information about the text below the golden bar */
+#info{
+	font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    
+    color: yellow;
+	opacity:1;
+    
+	margin-top:100px;
+	width:100%;
+	height:100%;
+    padding: 3px;
+	text-align:center;
+}
+#major{
+	font-style: italic;
+	font-weight:bolder;
+	
+}
+#about{
+	text-align:center;
+	line-height:1.5em;
+	width: 700px;
+	margin-left:300px;
+}
+#chessinfo{
+	text-align:center;
+	margin-right:350px;
+}
+#container {
+width: 960px;
+margin: 0px auto;
+padding: 30px 0px;
+}
+
+h1 {
+    font-family: Georgia, sans-serif;
+    border-bottom: 3px solid #cc9900;
+    color: #996600;
+    font-size: 30px;
+}
+/* style for links*/
+a {
+	color: white;
+	text-decoration: none;
+	
+}
+/* style for email contact*/
+address{
+	font-size: 24px;
+}
