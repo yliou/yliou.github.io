@@ -8,7 +8,6 @@ body {
     margin:0 auto;
 	width:100%;
 	height:100%;
-    padding: 3px;
 	text-align:center;
 }
 /* golden bar on the top */
@@ -54,7 +53,7 @@ body {
 	margin-top:100px;
 	width:100%;
 	height:100%;
-    padding: 3px;
+    
 	text-align:center;
 }
 /* information about the text below the golden bar */
@@ -68,7 +67,7 @@ body {
 	margin-top:100px;
 	width:100%;
 	height:100%;
-    padding: 3px;
+    
 	text-align:center;
 }
 #major{
