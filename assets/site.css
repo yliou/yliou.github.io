@@ -49,6 +49,7 @@ body {
 	font-size: 25px;
 	border-radius: 10px 10px 10px 10px;
 }
+/* on chess page of webesite */
 #name{
 	margin-top:100px;
 	width:100%;
@@ -70,27 +71,54 @@ body {
     
 	text-align:center;
 }
-#major{
-	font-style: italic;
-	font-weight:bolder;
-	
-}
+/* personal description on start page*/
 #about{
 	text-align:center;
 	line-height:1.5em;
 	width: 600px;
 	margin-left:500px;
 }
+
+/* NBA project description */
+#nbas{
+	position:absolute;
+	text-align:left;
+	line-height:1.0em;
+	width: 400px;
+	margin-left:50px;
+	top: 150px;
+}
+/* yelp project description */
+#yelps{
+	position:absolute;
+	text-align:left;
+	line-height:1.0em;
+	width: 400px;
+	margin-left:50px;
+	top: 400px;
+}
+/* Bearmaps project description */
+#bears{
+	position:absolute;
+	text-align:left;
+	line-height:1.0em;
+	width: 400px;
+	margin-left:50px;
+	top: 600px;
+}
+/* chess information on chess page */
 #chessinfo{
 	text-align:center;
 	margin-right:350px;
 }
+/* random container kept for time being */
 #container {
 width: 960px;
 margin: 0px auto;
 padding: 30px 0px;
 }
-.TextWrap { 
+/* image styles */
+.Yian { 
 position: absolute;
 float: left;
 top: 450px;
@@ -144,7 +172,7 @@ left: 500px;
 width: 440px;
 height:220px;
 }
-
+/* end of image styles */
 h1 {
     font-family: Georgia, sans-serif;
     border-bottom: 3px solid #cc9900;
