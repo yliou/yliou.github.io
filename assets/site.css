@@ -2,7 +2,7 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
-    background-color: rgb(0,55,113);
+    background-color: white;
     color: white;
 	opacity:1;
     margin:0 auto;
@@ -61,7 +61,7 @@ body {
 	font-family: 'Noto Sans', sans-serif;
     font-size: 24px;
     
-    color: yellow;
+    color: black;
 	opacity:1;
     
 	margin-top:100px;
@@ -78,8 +78,8 @@ body {
 #about{
 	text-align:center;
 	line-height:1.5em;
-	width: 700px;
-	margin-left:300px;
+	width: 600px;
+	margin-left:500px;
 }
 #chessinfo{
 	text-align:center;
@@ -89,6 +89,33 @@ body {
 width: 960px;
 margin: 0px auto;
 padding: 30px 0px;
+}
+.TextWrap { 
+position: absolute;
+float: left;
+top: 350px;
+bottom: 400px;
+left: 650px;
+width: 255px;
+height: 320px;
+}
+.prochess{
+	position: absolute;
+float: left;
+top: 400px;
+bottom: 400px;
+left: 100px;
+width: 240px;
+height:240px;
+}
+.Dover{
+	position: absolute;
+float: left;
+top: 115px;
+bottom: 400px;
+left: 10px;
+width: 320px;
+height:240px;
 }
 
 h1 {
