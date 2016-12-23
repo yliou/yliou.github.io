@@ -100,7 +100,7 @@ width: 255px;
 height: 320px;
 }
 .prochess{
-	position: absolute;
+position: absolute;
 float: left;
 top: 400px;
 bottom: 400px;
@@ -109,13 +109,40 @@ width: 240px;
 height:240px;
 }
 .Dover{
-	position: absolute;
+position: absolute;
 float: left;
 top: 115px;
 bottom: 400px;
 left: 10px;
 width: 320px;
 height:240px;
+}
+.NBA{
+	position: absolute;
+float: left;
+top: 115px;
+bottom: 400px;
+left: 500px;
+width: 828px;
+height:240px;
+}
+.yelp{
+	position: absolute;
+float: left;
+top: 350px;
+bottom: 400px;
+left: 500px;
+width: 252px;
+height:170px;
+}
+.bearmaps{
+	position: absolute;
+float: left;
+top: 555px;
+bottom: 400px;
+left: 500px;
+width: 440px;
+height:220px;
 }
 
 h1 {
