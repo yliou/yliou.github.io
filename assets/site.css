@@ -93,7 +93,7 @@ padding: 30px 0px;
 .TextWrap { 
 position: absolute;
 float: left;
-top: 350px;
+top: 450px;
 bottom: 400px;
 left: 650px;
 width: 255px;
@@ -126,7 +126,7 @@ h1 {
 }
 /* style for links*/
 a {
-	color: white;
+	color: navy;
 	text-decoration: none;
 	
 }
