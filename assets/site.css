@@ -1,183 +1,82 @@
-/* main part of the text below golden bar */
 body {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 16px;
-    background-color: white;
-    color: white;
-	opacity:1;
-    margin:0 auto;
-	width:100%;
-	height:100%;
-	text-align:center;
+  padding-top: 50px;
 }
-/* golden bar on the top */
-#header-container {
-	min-width: 768px;
-	z-index: 5;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100px;
-	background-color: rgb(183,135,39);
-	-webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	-o-transition: all .3s;
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
 }
-.main {
-	position: relative;
-	float: left;
-	top: 50%;
-	transform: translateY(-50%);
-	margin-left: 30px;
-	font-size: 45px;
-	color: white;
-	font-weight: bolder;
+h4 {
+  margin-top: 25px;
 }
-/* The three texts in the golden bar */
-.topper {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	float: right;
-	margin: 0 auto;
-	margin-right: 5px;
-	padding: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
-	color: white;
-	font-size: 25px;
-	border-radius: 10px 10px 10px 10px;
+.row {
+  margin-bottom: 20px;
 }
-/* on chess page of webesite */
-#name{
-	margin-top:100px;
-	width:100%;
-	height:100%;
-    
-	text-align:center;
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
 }
-/* information about the text below the golden bar */
-#info{
-	font-family: 'Noto Sans', sans-serif;
-    font-size: 24px;
-    
-    color: black;
-	opacity:1;
-    
-	margin-top:100px;
-	width:100%;
-	height:100%;
-    
-	text-align:center;
-}
-/* personal description on start page*/
-#about{
-	text-align:center;
-	line-height:1.5em;
-	width: 600px;
-	margin-left:500px;
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
 }
 
-/* NBA project description */
-#nbas{
-	position:absolute;
-	text-align:left;
-	line-height:1.0em;
-	width: 400px;
-	margin-left:50px;
-	top: 150px;
-}
-/* yelp project description */
-#yelps{
-	position:absolute;
-	text-align:left;
-	line-height:1.0em;
-	width: 400px;
-	margin-left:50px;
-	top: 400px;
-}
-/* Bearmaps project description */
-#bears{
-	position:absolute;
-	text-align:left;
-	line-height:1.0em;
-	width: 400px;
-	margin-left:50px;
-	top: 600px;
-}
-/* chess information on chess page */
-#chessinfo{
-	text-align:center;
-	margin-right:350px;
-}
-/* random container kept for time being */
-#container {
-width: 960px;
-margin: 0px auto;
-padding: 30px 0px;
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 /* image styles */
-.Yian { 
-position: absolute;
-float: left;
-top: 450px;
-bottom: 400px;
-left: 650px;
-width: 255px;
-height: 320px;
-}
 .prochess{
-position: absolute;
-float: left;
-top: 400px;
-bottom: 400px;
-left: 100px;
 width: 240px;
 height:240px;
 }
 .Dover{
-position: absolute;
-float: left;
-top: 115px;
-bottom: 400px;
-left: 10px;
 width: 320px;
 height:240px;
 }
 .NBA{
-	position: absolute;
-float: left;
-top: 115px;
-bottom: 400px;
-left: 500px;
+float:left;
 width: 828px;
 height:240px;
 }
 .yelp{
-	position: absolute;
 float: left;
-top: 350px;
-bottom: 400px;
-left: 500px;
 width: 252px;
 height:170px;
 }
 .bearmaps{
-	position: absolute;
 float: left;
-top: 555px;
-bottom: 400px;
-left: 500px;
 width: 440px;
 height:220px;
 }
-/* end of image styles */
-h1 {
-    font-family: Georgia, sans-serif;
-    border-bottom: 3px solid #cc9900;
-    color: #996600;
-    font-size: 30px;
+/* NBA project description */
+#nbas{
+	
+	text-align:left;
+	line-height:1.0em;
+	
+	font-size: 18px;
+	
+}
+/* yelp project description */
+#yelps{
+	
+	text-align:left;
+	line-height:1.0em;
+	
+	font-size: 18px;
+	
+}
+/* Bearmaps project description */
+#bears{
+	
+	text-align:left;
+	line-height:1.0em;
+
+	font-size: 18px;
+	
 }
 /* style for links*/
 a {
@@ -189,3 +88,4 @@ a {
 address{
 	font-size: 24px;
 }
+

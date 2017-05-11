@@ -1,14 +1,23 @@
- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content=" Yian Liou Personal Website">
+    <meta name="author" content="Yian Liou">
+    <title>Starter Template for Bootstrap</title>
 
-<head>
-  <title>Yian Liou|Website </title>
-  <meta http-equiv="author" content = "Yian Liou"/>
-  <meta name ="description" content = "Yian Liou Website"
-  <meta name = "ROBOTS" content = "INDEX, FOLLOW"/>
-  <!tab name>
-  <link href="assets/site.css" rel="stylesheet" type = "text/css">
-  <script>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/site.css" rel="stylesheet">
+	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -18,42 +27,116 @@
   ga('send', 'pageview');
 
 </script>
-</head>
-<style>
+  </head>
 
- 
-</style>
-<body>
-	<div id = "header-container">
-		<div class = "main">
-			<a href = "index.html">Yian Liou</a>
-			</div>
-		<div class = "topper">
-			<a href = "chess.html">Chess</a>
-			</div>
-		<div class = "topper">
-			<a href = "index.html">About</a>
-			</div>
-		<div class = "topper">
-			<a href = "project.html">Projects</a>
-		
-		</div>
-	</div>
-	<div id = "info">
-	<img class = "Dover" src = "Dover.jpg" class= "pic">
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Yian Liou</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">About</a></li>
+            
+            
+			<li><a href="#project">Projects</a></li>
+			<li><a href="#chess">Chess</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+<div class="page-header">
+        <h1>Welcome to Yian Liou's Website!</h1>
+      </div>
+      <h3>About Me</h3>
+      <div class="row">
+        <div class="col-md-8">
+		<img class = "Yian" src = "http://www.uschesschamps.com/sites/default/files/headshots/_JV67562-2573924690-O.jpg" class = "pic">
+		<img class = "Dover" src = "Dover.jpg" class= "pic">
 		<div id = "about">Hi! I am Yian Liou. I am a Electrical Engineering and Computer Sciences student at UC Berkeley from the Bay Area. 
 		I write occasionally on my chess blog at chess.com about my chess experiences. I enjoy short long distance runs and nature hikes.
 		</div>
 		<address>
 		<p> Email me at</p> <a href = "mailto:yliou@berkeley.edu"> yliou@berkeley.edu</a>
 	</address>
+		<a href = "https://github.com/yliou"> Github <a/>
+	</address>
 		<a href = "https://www.linkedin.com/in/yian-liou-2255748a"> LinkedIn </a></div>
-	<div>
-	<a href = "https://github.com/yliou"> Github <a/></div>
-		<img class = "Yian" src = "http://www.uschesschamps.com/sites/default/files/headshots/_JV67562-2573924690-O.jpg" class = "pic">	
-		<img class = "prochess" src = "prochess.jpg" class= "pic">
-		
+        
+      </div>
+
+      <h3>Projects</h3>
+      <div id = "project">
+
+      <hr>
+<div id = "nbas"> NBA Analytics: Scraped and cleaned data of NBA Player statistics to perform statistical analysis on the relationship between a player's skills and salary. Written in R.
+		</div>
+		<div class="clearfix"></div>
+		<img class = "NBA" src = "NBA.jpg" class= "pic">
+		<div class="clearfix"></div>
+		<div id = "yelps">Yelp Maps: Created a visualization of restaurant ratings using machine learning and Yelp Dataset. Written in Python
+		</div>
+		<div class="clearfix"></div>
+		<img class = "yelp" src = "voronoi.png" class= "pic">
+		<div class="clearfix"></div>
+		<div id = "bears">Bearmaps: Rastered images on a map of UC Berkeley for zooming in and out, implemented route search between two locations, autocomplete and search locations. Written in Java
 		</div>
 	
-</body>
-</html> 
+	
+	<img class = "bearmaps" src = "bearmaps.jpg" class= "pic">
+     
+
+      <hr>
+</div>
+<div class="clearfix"></div>
+<h3>Chess</h3>
+      <div id = "chess">
+
+      <hr>
+	  <img class = "prochess" src = "prochess.jpg" class= "pic">
+<div id = "name"><span></span>
+	<a href = "http://ratings.fide.com/card.phtml?event=2039583"> World Chess Federation (FIDE) Chess ID |</a>
+	<a href = "http://www.uschess.org/msa/MbrDtlMain.php?12948665"> US Chess Federation (USCF) Chess ID </a>
+  </div>
+  
+  <hr/>
+  
+  <p> Online Chess activity: <br /> 
+  Internet Chess Club: <a href = "https://www.chessclub.com/user/activities/finger.php?handle=yummy2"> User name: Yummy2 </a>
+  <br /> Chess.com: <a href = "https://www.chess.com/members/view/yian123"> User name: Yian123, </a>
+  <a href = "https://www.chess.com/blog/yian123"> Chess Blog </a></p>
+  
+ <div id = "chessinfo"
+	<div class = "past"><p>For more information about my childhood chess career, click here:
+	<a href = "https://fpawn.blogspot.com/search/label/Yian"> Junior Chess Career</a></p>
+	<p>My Past Chess Coaches: Michael Aigner, Larry Christiansen, Predrag Trajkovic </p>
+	<p>Article: How to go from 1600 USCF to 2000 USCF: 
+	<a href = "https://fpawn.blogspot.com/2012/12/reprint-how-to-get-from-1600-to-2000.html"> Improving from 1600 to 2000 USCF</p></a>
+	</div>
+     
+
+      <hr>
+</div>
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
