@@ -1,5 +1,15 @@
+html,
+body {
+  height: 100%;
+  background-image: url("back.jpg");
+  background-size:cover;
+}
 body {
   padding-top: 50px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+   font-size: 16px;
+   color: yellow;
 }
 .starter-template {
   padding: 40px 15px;
@@ -56,8 +66,9 @@ height:220px;
 	
 	text-align:left;
 	line-height:1.0em;
-	
-	font-size: 18px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+	font-size: 16px;
 	
 }
 /* yelp project description */
@@ -66,26 +77,34 @@ height:220px;
 	text-align:left;
 	line-height:1.0em;
 	
-	font-size: 18px;
-	
+	font-size: 16px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
 }
 /* Bearmaps project description */
 #bears{
 	
 	text-align:left;
 	line-height:1.0em;
-
-	font-size: 18px;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+	font-size: 16px;
 	
 }
 /* style for links*/
 a {
-	color: navy;
+	color: #CC99FF;
+  font-size: 16px;
+  font-weight: 300;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	text-decoration: none;
 	
 }
 /* style for email contact*/
 address{
-	font-size: 24px;
+	font-size: 16px;
+  font-weight: 300;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
+
 
