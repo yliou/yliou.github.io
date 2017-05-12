@@ -28,11 +28,9 @@
 
 </script>
   </head>
-
   <body>
-
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -45,8 +43,6 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">About</a></li>
-            
-            
 			<li><a href="#project">Projects</a></li>
 			<li><a href="#chess">Chess</a></li>
           </ul>
@@ -55,10 +51,9 @@
     </nav>
 
     <div class="container">
-<div class="page-header">
-        <h1>Welcome to Yian Liou's Website!</h1>
-      </div>
-      <h3>About Me</h3>
+
+      <h2>About Me</h2>
+      <hr>
       <div class="row">
         <div class="col-md-8">
 		<img class = "Yian" src = "http://www.uschesschamps.com/sites/default/files/headshots/_JV67562-2573924690-O.jpg" class = "pic">
@@ -71,12 +66,9 @@
 		<a href = "https://github.com/yliou"> Github <a/>
 	</address>
 		<a href = "https://www.linkedin.com/in/yian-liou-2255748a"> LinkedIn </a></div>
-        
       </div>
-
-      <h3>Projects</h3>
-      <div id = "project">
-
+<div id = "project">
+      <h2>Projects</h2>
       <hr>
 <div id = "nbas"> NBA Analytics: Scraped and cleaned data of NBA Player statistics to perform statistical analysis on the relationship between a player's skills and salary. Written in R.
 		</div>
@@ -90,31 +82,21 @@
 		<div class="clearfix"></div>
 		<div id = "bears">Bearmaps: Rastered images on a map of UC Berkeley for zooming in and out, implemented route search between two locations, autocomplete and search locations. Written in Java
 		</div>
-	
-	
-	<img class = "bearmaps" src = "bearmaps.jpg" class= "pic">
-     
-
-      <hr>
+	  <img class = "bearmaps" src = "bearmaps.jpg" class= "pic">
 </div>
 <div class="clearfix"></div>
-<h3>Chess</h3>
+<h2>Chess</h2>
       <div id = "chess">
-
       <hr>
 	  <img class = "prochess" src = "prochess.jpg" class= "pic">
 <div id = "name"><span></span>
 	<a href = "http://ratings.fide.com/card.phtml?event=2039583"> World Chess Federation (FIDE) Chess ID |</a>
 	<a href = "http://www.uschess.org/msa/MbrDtlMain.php?12948665"> US Chess Federation (USCF) Chess ID </a>
   </div>
-  
-  <hr/>
-  
   <p> Online Chess activity: <br /> 
   Internet Chess Club: <a href = "https://www.chessclub.com/user/activities/finger.php?handle=yummy2"> User name: Yummy2 </a>
   <br /> Chess.com: <a href = "https://www.chess.com/members/view/yian123"> User name: Yian123, </a>
   <a href = "https://www.chess.com/blog/yian123"> Chess Blog </a></p>
-  
  <div id = "chessinfo"
 	<div class = "past"><p>For more information about my childhood chess career, click here:
 	<a href = "https://fpawn.blogspot.com/search/label/Yian"> Junior Chess Career</a></p>
@@ -122,19 +104,14 @@
 	<p>Article: How to go from 1600 USCF to 2000 USCF: 
 	<a href = "https://fpawn.blogspot.com/2012/12/reprint-how-to-get-from-1600-to-2000.html"> Improving from 1600 to 2000 USCF</p></a>
 	</div>
-     
-
-      <hr>
 </div>
     </div><!-- /.container -->
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/jquery.min.js"><\/script>')</script>
+    <script src="assets/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
