@@ -1,19 +1,32 @@
 html,
-body {
-  
-  background-image: url("back.svg");
-  background-size:cover;
+
+.bg-1 {
+       background-image: url("back.svg");
+  background-size:100%;
   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}
+    }
+    .bg-2{
+      color: black;
+      background-color: #FFFFE0;
+    }
+    .bg-3{
+      color: black;
+      background-color:#87CEEB;
+    }
+    .container-fluid {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
 body {
   padding-top: 50px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
    line-height:1.5em;
    font-size: 18px;
-   color: yellow;
+   color:gold;
+   text-align: center;
 }
 .starter-template {
   padding: 40px 15px;
@@ -51,24 +64,24 @@ width: 320px;
 height:240px;
 }
 .NBA{
-float:left;
+float:center;
 width: 828px;
 height:240px;
 }
 .yelp{
-float: left;
+float: center;
 width: 252px;
 height:170px;
 }
 .bearmaps{
-float: left;
+float: center;
 width: 440px;
 height:220px;
 }
 /* NBA project description */
 #nbas{
 	
-	text-align:left;
+
 	line-height:1.5em;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
@@ -78,7 +91,7 @@ height:220px;
 /* yelp project description */
 #yelps{
 	
-	text-align:left;
+	
 	line-height:1.5em;
 	
 	font-size: 18px;
@@ -88,7 +101,7 @@ height:220px;
 /* Bearmaps project description */
 #bears{
 	
-	text-align:left;
+	
 	line-height:1.5em;
 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
@@ -97,7 +110,7 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
 }
 /* style for links*/
 a {
-	color: #CC99FF;
+	color: #8A2BE2;
   font-size: 18px;
   font-weight: 300;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
