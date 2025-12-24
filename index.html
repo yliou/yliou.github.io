@@ -1,134 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content=" Yian Liou Personal Website">
     <meta name="author" content="Yian Liou">
-    <title>Yian Liou Personal Website</title>
-
+    <title>Yian Liou - About Me</title>
+    
     <!-- Bootstrap core CSS -->
-    <link href="assets/bootstrap.min.css" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <link href="assets/site.css" rel="stylesheet">
+    
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
+    
     <!-- Custom styles for this template -->
     <link href="assets/site.css" rel="stylesheet">
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-89800707-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-89800707-1', 'auto');
+      ga('send', 'pageview');
+      
+      // Redirect to about.html after 0 seconds
+      window.location.href = 'about.html';
+    </script>
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Yian Liou</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">About</a></li>
-			<li><a href="#project">Projects</a></li>
-			<li><a href="#chess">Chess</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
-    <div class="container-fluid bg-1 text-center">
-
-      <h2>About Me</h2>
-      <hr>
-      
-		<img class = "img-circle" src = "http://www.uschesschamps.com/sites/default/files/headshots/_JV67562-2573924690-O.jpg" >
-		<div id = "about">Hi! My name is Yian Liou. I grew up in the East Bay and used to be in the chess scene. In my spare time,I enjoy trying to improve my tennis game. 
-		</div>
-		
-  <script language="JavaScript">
-
-var username = "yliou";
-
-var hostname = "berkeley.edu";
-
-var linktext = username + " AT " + hostname ;
-
-document.write("<a href='" + "mail" + "to:" + username + "<AT>" + hostname + "'>" + linktext + "</a>");
-
-</script>
-
-<div>
-		<a href = "https://github.com/yliou"> Github <a/>
-    </div>
-	</address>
-		<a href = "https://www.linkedin.com/in/yian-liou-2255748a"> LinkedIn </a></div>
-      </div>
-      
-<div class="container-fluid bg-2 text-center">
-<div id = "project">
-      <h2>College Class Projects</h2>
-      <hr>
-<div id = "nbas"> NBA Analytics: Scraped and cleaned data of NBA Player statistics to perform statistical analysis on the relationship between a player's skills and salary. Written in R.
-		</div>
-		<div class="clearfix"></div>
-		<img class = "NBA" src = "NBA.jpg" class= "pic">
-		<div class="clearfix"></div>
-		<div id = "yelps">Yelp Maps: Created a visualization of restaurant ratings using machine learning and Yelp Dataset. Written in Python
-		</div>
-		<div class="clearfix"></div>
-		<img class = "yelp" src = "voronoi.png" class= "pic">
-		<div class="clearfix"></div>
-		<div id = "bears">Bearmaps: Rastered images on a map of UC Berkeley for zooming in and out, implemented route search between two locations, autocomplete and search locations. Written in Java
-		</div>
-	  <img class = "bearmaps" src = "bearmaps.jpg" class= "pic">
-</div>
-<div class="clearfix"></div>
-</div>
-</div>
-<div class="container-fluid bg-3 text-center">
-<h2>Chess</h2>
-      <div id = "chess">
-      <hr>
-	  <img class = "prochess" src = "prochess.jpg" class= "pic">
-<div id = "name"><span></span>
-	<a href = "http://ratings.fide.com/card.phtml?event=2039583"> World Chess Federation (FIDE) Chess ID |</a>
-	<a href = "http://www.uschess.org/msa/MbrDtlMain.php?12948665"> US Chess Federation (USCF) Chess ID </a>
-  </div>
- <div id = "chessinfo"
-	<div class = "past"><p>For more information about past my childhood chess career, click here:
-	<a href = "https://fpawn.blogspot.com/search/label/Yian"> Junior Chess Career</a></p>
-	<p>My Past Chess Coaches: Michael Aigner, Larry Christiansen, Predrag Trajkovic </p>
-	<p>Article: How to go from 1600 USCF to 2000 USCF: 
-	<a href = "https://fpawn.blogspot.com/2012/12/reprint-how-to-get-from-1600-to-2000.html"> Improving from 1600 to 2000 USCF</p></a>
-	</div>
-  </div>
-  </div>
-</div>
-    </div><!-- /.container -->
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/jquery.min.js"><\/script>')</script>
-    <script src="assets/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- No content here, redirected immediately -->
   </body>
 </html>

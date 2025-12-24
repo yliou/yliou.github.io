@@ -1,127 +1,39 @@
-html,
-
-.bg-1 {
-       background-image: url("back.svg");
-  background-size:100%;
-  -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    }
-    .bg-2{
-      color: black;
-      background-color: #FFFFE0;
-    }
-    .bg-3{
-      color: black;
-      background-color:#87CEEB;
-    }
-    .container-fluid {
-      padding-top: 10px;
-      padding-bottom: 10px;
-  }
 body {
-  padding-top: 50px;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
-   line-height:1.5em;
-   font-size: 18px;
-   color:gold;
-   text-align: center;
-}
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
-}
-h4 {
-  margin-top: 25px;
-}
-.row {
-  margin-bottom: 20px;
-}
-.row .row {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-[class*="col-"] {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  
-  border: 1px solid #ddd;
-  border: 1px solid rgba(86,61,124,.2);
+  background-color: #f5f5f5; /* Light gray for modern minimalism */
+  color: #333; /* Dark text for contrast */
 }
 
-hr {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-/* image styles */
-.prochess{
-width: 240px;
-height:240px;
-}
-.Dover{
-width: 320px;
-height:240px;
-}
-.NBA{
-float:center;
-width: 828px;
-height:240px;
-}
-.yelp{
-float: center;
-width: 252px;
-height:170px;
-}
-.bearmaps{
-float: center;
-width: 440px;
-height:220px;
-}
-/* NBA project description */
-#nbas{
-	
-
-	line-height:1.5em;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
-	font-size: 18px;
-	
-}
-/* yelp project description */
-#yelps{
-	
-	
-	line-height:1.5em;
-	
-	font-size: 18px;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
-}
-/* Bearmaps project description */
-#bears{
-	
-	
-	line-height:1.5em;
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
-	font-size: 18px;
-	
-}
-/* style for links*/
-a {
-	color: #8A2BE2;
-  font-size: 18px;
-  font-weight: 300;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	text-decoration: none;
-	
-}
-/* style for email contact*/
-address{
-	font-size: 18px;
-  font-weight: 300;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+.dark-mode {
+  background-color: #0d1117; /* Deep blue for dark mode */
+  color: #f5f5f5; /* Light text for high contrast */
 }
 
+/* Accent colors for modern UI */
+.primary {
+  background-color: #4f46e5; /* Soft purple */
+  color: white;
+}
 
+.secondary {
+  background-color: #60a5fa; /* Light blue */
+  color: #0d1117;
+}
+
+/* Ensure accessibility */
+body {
+  line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+}
+
+/* Hover effects */
+button:hover, a:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
